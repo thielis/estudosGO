@@ -23,6 +23,6 @@ func main() {
 	letras := [3]string{"a", "b", "c"}
 	fmt.Println(letras)
 
-	//Slices modificado
+	//Slices modificado novamente
 
 }
