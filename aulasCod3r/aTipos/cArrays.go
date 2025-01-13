@@ -23,6 +23,7 @@ func main() {
 	letras := [3]string{"a", "b", "c"}
 	fmt.Println(letras)
 
-	//Slices modificado novamente
+	//Slices ou partes de um array
+	//não tem limite de itens
 
 }
