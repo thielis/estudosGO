@@ -4,8 +4,8 @@ import "fmt"
 
 func main() {
 	//Arrays tem tamanho fixo
-	var notas [3]float64 // declaração do array
-	fmt.Println(notas)
+	var notas [3]float64              // declaração do array
+	fmt.Println(notas)                // print do array zerado
 	notas = [3]float64{1.2, 3.4, 5.6} //atribuição
 	fmt.Println(notas)
 
