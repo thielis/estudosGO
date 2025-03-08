@@ -28,7 +28,7 @@ func main() {
 	fmt.Println("Valor de do endereço de 'i': ", &i)
 	/*
 		O "&" junto a variável retorna o endereço de memória da variável
-		em que sempre que vamos fazer alguma operação em uma variável em
+		em que sempre quando vamos fazer alguma operação em uma variável em
 		GO é criado uma cópia do valor trabalhado em cima deste, agora
 		quando trabalhamos com ponteiro estamos lidando com a referência
 		ou endereço de memória
@@ -84,7 +84,7 @@ func main() {
 		isso permite garantir que este ponteiro sempre representará um valor do tipo "int" evitando falhas de operações
 		durante o código garantindo uma robustes na aplicação criada.
 	*/
-	//Declaração curta de um ponteiro
+	//Declaração curta/implícita de um ponteiro
 	g := &i
 	fmt.Println(reflect.TypeOf(g), g) //retornando o tipo e endereço
 
