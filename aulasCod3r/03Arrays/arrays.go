@@ -23,6 +23,8 @@ func main() {
 	letras := [3]string{"a", "b", "c"}
 	fmt.Println(letras)
 
-	//Slices
+	//Slices (uma parte do array)
+	//Tem a vantagem de não precisar de tamanho definido
+	//Aumenta seu tamanho de acordo com a demanda
 
 }
