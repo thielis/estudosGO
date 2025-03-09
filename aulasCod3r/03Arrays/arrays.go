@@ -26,5 +26,6 @@ func main() {
 	//Slices (uma parte do array)
 	//Tem a vantagem de não precisar de tamanho definido
 	//Aumenta seu tamanho de acordo com a demanda
+	//Muito útil em casos que o tamanho de armazenamento de array não está bem definido
 
 }
